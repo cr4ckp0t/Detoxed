@@ -1,0 +1,14 @@
+## Interface: 80300
+## Author: Crackpot
+## Title: Detoxed
+## Version: 420.69
+## Notes: For Detoxed <3
+
+Libraries\LibStub\LibStub.lua
+Libraries\CallbackHandler-1.0\CallbackHandler-1.0.xml
+Libraries\AceAddon-3.0\AceAddon-3.0.xml
+Libraries\AceConsole-3.0\AceConsole-3.0.xml
+Libraries\AceEvent-3.0\AceEvent-3.0.xml
+Libraries\AceTimer-3.0\AceTimer-3.0.xml
+
+Detoxed.lua

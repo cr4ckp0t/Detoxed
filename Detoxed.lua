@@ -34,7 +34,6 @@ function Detoxed:OnEnable()
 		self:ScheduleTimer(function() self.frame:Hide() end, random(1, 10))
 		self.displayTimer = self:ScheduleRepeatingTimer(function()
 			local toShow = random(1, 100)
-			print(toShow)
 			if toShow > 50 and not InCombatLockdown() then
 				self:ShowFrame()
 				self:ScheduleTimer(function() self.frame:Hide() end, random(1, 10))
